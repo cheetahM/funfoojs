@@ -1,7 +1,7 @@
 {
-  "name": "OpenShift-Sample-App",
+  "name": "funfoojs",
   "version": "1.0.0",
-  "description": "OpenShift Sample Application",
+  "description": "My Javascript playground",
   "keywords": [
     "OpenShift",
     "Node.js",
@@ -9,14 +9,14 @@
     "openshift"
   ],
   "author": {
-    "name": "OpenShift",
-    "email": "ramr@example.org",
-    "url": "http://www.openshift.com/"
+    "name": "Chetan Meshram",
+    "email": "meshram.chetan@gmail.com",
+    "url": "http://www.funfoojs.com"
   },
-  "homepage": "http://www.openshift.com/",
+  "homepage": "http://www.funfoojs.com/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openshift/origin-server"
+    "url": "https://github.com/cheetahM/funfoojs.git"
   },
 
   "engines": {
@@ -27,9 +27,14 @@
   "dependencies": {
     "express": "~3.4.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "servedir": "^0.2.2"
+  },
   "bundleDependencies": [],
 
   "private": true,
-  "main": "server.js"
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
 }
