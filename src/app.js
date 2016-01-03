@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hello = React.createClass ({
   render () {
-    return <div>Hello, {this.props.name}.</div>
+    return <div><h1>Hello, {this.props.name}.</h1></div>
   }
 })
 
