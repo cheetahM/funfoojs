@@ -71,10 +71,7 @@
   "main": "server.js",
   "scripts": {
     "build": "webpack",
-    "deploy": "surge -p public -d hubtags.com",
-    "start": "webpack-dev-server",
-    "test": "standard",
-    "yolo": "npm run test && npm version minor && git push origin master --tags && npm run build && npm run deploy"
+    "start": "webpack-dev-server"
   },
   "standard": {
     "ignore": [
