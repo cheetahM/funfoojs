@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "My Javascript playground",
   "keywords": [
-    "FunfooJS",
+    "FunFoojs",
     "Node.js",
-    "application",
+    "application"
   ],
   "author": {
     "name": "Chetan Meshram",
